@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
-    // Start is called before the first frame update
     Slider slider;
     [SerializeField] Player_Actions playerActions;
     void Start()
@@ -15,7 +14,6 @@ public class HealthBar : MonoBehaviour
         ChangeMaxHealth(playerActions.maxHealth);
     }
 
-    // Update is called once per frame
     void Update()
     {
         ChangeCurrentHealth(playerActions.health);
