@@ -94,7 +94,6 @@ public class Gobling_Interactions : MonoBehaviour
 
         GameObject attackInstance = Instantiate(_atack, transform.position, rotation, transform);
 
-        // Verificar si el collider se actualiza correctamente
         BoxCollider2D attackCollider = attackInstance.GetComponent<BoxCollider2D>();
         if (attackCollider != null)
         {
