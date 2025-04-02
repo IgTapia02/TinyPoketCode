@@ -13,13 +13,6 @@ public class Pot_Interaction : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
     public void Destroy()
     {
         animator.SetTrigger("Destroy");
