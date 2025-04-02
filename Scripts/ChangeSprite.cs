@@ -9,18 +9,11 @@ public class ChangeSprite : MonoBehaviour
 
     [SerializeField] Sprite none,stick, sword, potion, key;
     Image image;
-    // Start is called before the first frame update
     void Start()
     {
         image = GetComponent<Image>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     public void SwitchSprite(int num)
     {
         switch (num)
