@@ -11,7 +11,6 @@ public class Fog : MonoBehaviour
         OpenFog();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.K)) { OpenFog(); }
