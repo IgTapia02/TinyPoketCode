@@ -13,5 +13,5 @@ The design and art implementation were done by both of us.
 
 ---
 
-You can find the Scripts in Scripts
+You can find the Scripts in folder Scripts
 
